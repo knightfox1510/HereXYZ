@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>RTO Offices in Maharashtra</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0px;
+            border: 0px;
+            padding: 0px;
+        }
+
+        .container {
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            position: absolute;
+			height: 100%;
+            width: 100%;
+        }
+
+        .header {
+            position: absolute;
+            top: -8px;
+            left: 50px;
+            padding-left: 50px;
+            right: 0;
+            padding: 10px;
+            z-index: 1000;
+        }
+
+        h2 {
+            margin: 10px 0;
+            text-shadow: 0px 0px 5px white;
+        }
+
+        #map {
+            height: 100%;
+            width: 100%;
+        }
+
+        .icon {
+            width: 50px;
+            height: 50px;
+            transform: translate(-25px, -25px);
+        }
+
+        .leaflet-div-icon {
+            background: none;
+            border: none;
+        }
+
+        #buttons {
+            /*margin-left: 50px;*/
+            /*display: inline-block;*/
+        }
+
+        #buttons div {
+            display: inline-block;
+            margin-right: 1em;
+            margin-bottom: 1em;
+            background-color: rgba(255, 255, 255, 0.5);
+            border: 1px solid black;
+            border-radius: 4px;
+            padding: 4px;
+        }
+
+        #buttons div:hover {
+            background-color: dodgerblue;
+            color: white;
+            cursor: pointer;
+        }
+
+
+
+    </style>
+  </head>
+
+  <body>
+
+    <div class="header">
+        <h2>RTO Offices</h2>
+		<br>
+		        <h2>Zones:</h2>
+
+        <div id="buttons">
+        </div>
+    </div>
+    <div class="container">
+        <div id="map"></div>
+    </div>
+
+    <!-- leaflet -->
+    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"></script>
+
+    <!-- Demo setup -->
+    <script>
+
+        var theMap = L.map('map', {maxZoom: 15});
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(theMap);
+ 
+        var airplaneIcon = new L.DivIcon({html: '<img class="icon" src="car.png" height="50px", width="50px">'});
+
+        var Forts = [
+            {
+                zone: 'East',
+                location: [20.179723502765153, 77.54150390625]
+            },
+            {
+                zone: 'West',
+                location: [19.03096327846469, 72.91351318359375]
+            },
+            {
+                zone: 'South',
+                location: [17.18277905643184, 74.1357421875]
+            },
+            {
+                zone: 'North',
+                location: [19.91138351415555, 74.970703125]
+            }
+        ];
+
+
+        theMap.setView([19.539084135509334, 75.8056640625], 1);
+
+        function addFortButtons() {
+            Forts.forEach(function(Fort) {
+                let button = document.createElement("div");
+                button.appendChild(document.createTextNode(Fort.zone));
+                button.onclick = function() { fetchData(Fort) };
+                document.getElementById("buttons").appendChild(button);
+            });
+        }
+
+        var planes = [];
+
+        function renderPlanes(data) {
+            planes.forEach(function (c) { c.remove(); });
+            planes = [];
+
+            data.forEach(function (feature) {
+                var c = L.marker(
+                    [feature.geometry.coordinates[1], feature.geometry.coordinates[0]],
+                    {
+                        icon: airplaneIcon
+                    });
+                c.addTo(theMap);
+                 c.bindTooltip('<h3>' + feature.properties.RTO + '</h3><ul><li>' + feature.properties.RTO_Office_Code + '</li><li>Address: ' + feature.properties.Address + '</li><li>Pincode: ' + feature.properties.Pincode + '</li><li>Contact: ' + feature.properties.Contacts + '</li><li>Working Hours: ' + feature.properties.Working_Hours + '</li></ul>');
+                c.getElement().childNodes[0].style.transform = c.getElement().childNodes[0].style.transform + " rotate(" + feature.properties.Trak + "deg)";
+                planes.push(c);
+            });
+        }
+
+
+
+        function fetchData(Fort) {
+            var url = 'https://xyz.api.here.com/hub/spaces/xfBD98ec/search?access_token=p3zfuBcfi4ZWHegaCaj06g&tags=' + Fort.zone;
+
+            fetch(url).then(resp => resp.json()).then(data => {
+                renderPlanes(data.features);
+            });
+
+            theMap.panTo(Fort.location);
+            theMap.setZoom(7);
+        }
+
+        addFortButtons();
+
+        fetchData(Forts[0]);
+
+
+    </script>
+
+  </body>
+</html>

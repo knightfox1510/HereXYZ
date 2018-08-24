@@ -1,0 +1,62 @@
+RTO,RTO_Office_Code,Address,Pincode,Contacts,Working_Hours,Lat,Lon,Zone
+Tardeo (South Mumbai),MH-01,"Old Bodyguard Lane, Tulsiwadi, Tardeo, Mumbai, Maharashtra",400034,"91-22-24932337
+91-22-24944601
+91-22-24944602",10AM–5:30PM,18.9743,72.817,West
+Andheri (Western Suburb Mumbai) ,MH-02,"Regional Transport Office, D/111, Ambivali Village, Versova Road, Near Manish Nagar, Andheri (West), Mumbai, Maharashtra",400053,"91-22-6362252
+91-22-26366957
+91-22-26319821
+91-22-26323315",10AM–5:00PM,19.1334,72.8305,West
+Worli (South Mumbai),MH-03,"Near Gts Building, Sir Pochkhanwala Road, Worli, Municipal Colony, Worli Shivaji Nagar, Worli, Mumbai, Maharashtra",400037,"91-22-24036221
+91-22-24036479",24 hours,19.014,72.8181,West
+Dahisar (Western Suburb),MH-47,"Dy. Regional Transport Officer, Wing-A Link Rd, Kandarpada Anand Park, Dahisar West, Near Borivali, Mumbai",400068,"91-22-26366957
+91-22-26362252
+91-22-26319821
+91-22-26323315",10AM–5:00PM,19.261463,72.8519251,West
+Thane (Western Mumbai),MH-04,"kalwa road, opp. Central Jail, Thane - 400601",400601,91-22-25343580,10AM–5:30PM,19.1986,72.9817,West
+Kalyan,MH-05,"Sahyadri Nagar, Chikanghar, Near Birla School, Kalyan(W)",421301,91-251-2230505,10AM–5:00PM,19.251851,73.1459006,West
+Raigad,MH-06,"Vikas Smruti, Pen Khopoli Road, Utkarsha Nagar, Raigad",402107,91-2143-252234,10AM–5:30PM,18.7353,73.1058,West
+Sindhudurg,MH-07,"MH SH 179, Sindhu Durg, Oros, Maharashtra",416812,91-2362-229050,10AM–5:00PM,16.1121393,73.70932,West
+Ratnagiri,MH-08,"S. No. 56-A, SH 265, Ganesh Nagar, Ratnagiri, Maharashtra",415612,91-2352-29444,10AM–5:30PM,16.9920339,73.3465588,West
+Kolhapur,MH-09,"213, E Ward, Tarabai Park, Warna Colony, Kolhapur, Maharashtra",416003,91-231-663131,10AM–5:00PM,16.714592,74.2404409,South
+Sangli,MH-10,"Rto Office, Vasantdada Industrial Estate, Sangli, Maharashtra",416416,91-233-310555,10AM–5:30PM,16.875715,74.582293,South
+Satara,MH-11,"The Regional Trasnport office, Sadar bazar, Satara",415001,91-2161-235888,10AM–5:30PM,17.68997,74.0125314,West
+Pune,MH-12,"38, Dr. Ambedkar Road, Near Sangam Bridge, Pune",411001,91-20-26058080,10AM–5:00PM,18.5303,73.8643,West
+Solapur,MH-13,"Vijapur road, S.T. colony, Sundaram nagar, Solapur",413004,91-217-303099,10AM–4:30PM,17.6142,75.8941,South
+Pimpri,MH-14,"34/A/4, Pimpri - Bhosari Rd, Gandhi Nagar, Kharalwadi, Pimpri Colony, Pimpri-Chinchwad",411019,91-20-27492828,10AM–5:00PM,18.6286,73.8078,West
+Nashik,MH-15,"Peth Road, Beside Maharashtra Engineering Research Institute (MERI), Panchavati, Nashik",422044,91-253-2229005,10AM–5:30PM,20.0330873,73.7962228,North
+Ahamadnagar,MH-16,"Tarakpur, Ahmednagar, Maharashtra",414001,91-241-431530,10AM–5:00PM,19.1046,74.744,South
+Shrirampur,MH-17,"Newasa Road, Haregaon Phata, Shrirampur, Maharashtra",413709,91-2422-222175,10AM–5:30PM,19.6153536,74.6885455,South
+Dhule,MH-18,"Dudh Bhawan, Mumbai Agra Highway, Mohadi Upnagar, Dhule, Maharashtra ",424311,91-2562-281351,10AM–5:00PM,20.8717346,74.7742897,North
+Jalgaon,MH-19,"Plot No 7, Mahabal Colony Road, Adarsh Nagar, Jalgaon, Maharashtra",425001,91-257-2262619,10AM–5:30PM,20.9900278,75.5580147,North
+Aurangabad,MH-20,"Railway Station Road, Aurangabad, Maharashtra",431001,91-240-2331135,10AM–5:00PM,19.8627,75.3151,South
+Jalna,MH-21,"The Regional Transport Officer ( RTO ), Nagewadi, Jalna",431203,91-2482-220929,10AM–5:00PM,19.854,75.8291,South
+Parbhani,MH-22,"Vakil Colony, Parbhani, Maharashtra ",431401,91-2452-291000,11AM–5:45PM,19.2642962,76.7783748,East
+Beed,MH-23,"National HIghway 211, Ghosapuri, Maharashtra",431122,91-2442-256111,10AM–5:00PM,19.0494823,75.753479,South
+Latur,MH-24,"Parivahan Bhavan, Bhabhalgaon Road, HUDCO and CIDCO, Latur, Maharashtra",413512,91-2382-242434,10AM–5:00PM,18.3911,76.6119,South
+Osmanabad,MH-25,"Plot no 18, M. Income D. C., Osmanabad, Maharashtra",413501,91-2472-221555,10AM–5:00PM,18.2280998,76.0461281,South
+Nanded,MH-26,"P-149, MIDC, CIDCO, Nanded, Maharashtra",431603,91-2462-259900,10AM–5:00PM,19.1149539,77.3345373,South
+Amravati,MH-27,"Near Collectorate Camp, Amravati, Maharashtra ",444602,91-721-2662032,11AM–5:00PM,20.938692,77.7772285,East
+Buldana,MH-28,"Khalid Bin Walid Nagar, Ganesh Nagar, Buldana, Maharashtra",443001,91-7262-242244,10AM–4:30PM,20.5497114,76.1762003,North
+Yavatmal,MH-29,"Nagpur Road, Near Kalamb Chauk, Yavatmal, Maharashtra",445001,91-7232-255111,10:30AM–4:30PM,21.1153553,79.0679661,East
+Akola,MH-30,"Municipal School No. 21, Railway Station Chowk, Ramdaspeth, Akola, Maharashtra",444104,91-724-2459488,10AM–6:00PM,20.7214638,77.0035386,North
+Nagpur,MH-31,"Dipti Signal Road, Near Water Tank, Nagpur, Maharashtra",440001,91-712-2560781,10AM–6:00PM,21.1593,79.1355,East
+Wardha,MH-32,"RTO, Administrative Building, 1st Floor, Sevagram Road, Wardha",442001,91-7152-252400,10AM–5:00PM,20.7409188,78.6297736,East
+Gadchiroli,MH-33,"Gadchiroli,, Police Quarters, Gadchiroli, Maharashtra ",442605,91-7132-222195,10AM–6.00PM,20.1766,79.9794,East
+Chandrapur,MH-34,"Near LIC Office, Jal Nagar Ward, Chauhan Colony, Chandrapur, Maharashtra",442401,91-712-255372,10AM–5:00PM,19.9607678,79.3022125,East
+Gondia,MH-35,"Fulchur Peth, Gondia, Maharashtra",441601,91-7181-237321,10AM–5:00PM,21.4409,80.207,East
+Bhandara,MH-36,"Sant Tukdoji Ward, Bhandara, Maharashtra",441904,91-7184-258165,10AM–6.00PM,21.1562566,79.6553906,East
+Washim,MH-37,"Lakhala, Washim, Maharashtra",444505,91-7252-235244,10AM–5:00PM,20.1079,77.1169,North
+Hingoli,MH-38,"Parbhani - Hingoli Road, Limbala makta, Maharashtra",431513,91-2456-248048,10:30AM–5:00PM,19.6853937,77.107192,South
+Nandurbar,MH-39,"Near Collecter office, Nandurbar, Maharashtra",425412,91-2564-210129,10AM–5:00PM,21.3463644,74.2289758,North
+Wadi Nagpur,MH-40,"Kamptee Rd, Teka Naka, Nagpur, Maharashtra",440014,91-712-2630574,10AM–6.00PM,21.1785,79.1084,East
+Malegaon - Nashik District,MH-41,"Vardhaman Nagar, Malegaon, Maharashtra",423105,91-2554-258850,10AM–6.00PM,20.5625,74.5243,North
+Baramati - Pune,MH-42,"Airport Road, Kalyani Corner, Caterpillar Area, MIDC, Baramati, Maharashtra",413133,91-2112-243111,9:45AM–5:45PM,18.1851539,74.6012087,South
+Vashi (Sanpada),MH-43,"Sector 19B, Kopri, Kopripada, B-63, Groma Marg, APMC Market 2, APMC Market, Sector 26, Vashi, Navi Mumbai, Maharashtra",400703,91-22-27650701,10:30AM–5:45PM,19.0763,73.0073,West
+Ambejogai Beed,MH-44,"Latur Road, Kirmani Nagar, District Beed, Ambajogai, Maharashtra ",431517,91-2446-247755,11:30AM–5:45PM,18.4308,76.576,South
+Akluj - Solapur,MH-45,"Rajhans Colony, Akluj, Maharashtra",413118,91-2181-31231,11AM–5:00PM,17.8583221,75.0019668,South
+Panvel,MH-46,"Sector AWC, Kalamboli, Panvel, Navi Mumbai, Maharashtra",410218,91-22-27424444,10AM–6:00PM,19.035,73.1084,West
+Vasai - Virar,MH-48,"Mu Po Chandansar, Bhatpada, Vasai, Virar, Thane, Maharashtra",401303,91-250-2523888,9AM–4:00PM,19.47,72.8416,West
+Nagpur (East) - Bhandara Road,MH-49,"Dipti Signal Road, Near Water Tank, Nagpur, Maharashtra",440001,91-712-2681215,10AM–6:00PM,21.1593,79.1355,East
+Karad,MH-50,"Sharda Mangal Office, Karad - Chiplun Rd, Vijaynagar, Maharashtra ",415114,91-2164-255300,10AM–5:30PM,17.2971225,74.130955,West
+Sangamner - Ahmednagar,MH-51,"Regional Transport Office, Sangamner, Ahmednagar",422608,mh51@mahatranscom.in,9AM–4:00PM,19.578629,74.2026132,South
+Parbhani (Rural),MH-52,"Vakil Colony, Parbhani, Maharashtra ",431401,91-2452-221100,10AM–5:00PM,19.2642,76.7783,South
